@@ -1,0 +1,57 @@
+#body {
+  display: flex;
+  flex-direction: column;
+}
+#image {
+  width: auto;
+  height: auto;
+}
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+}
+#table {
+  display: flex;
+  flex-direction: column;
+}
+#table-head {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 25px;
+}
+.table-row {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#td-title {
+  width: min-content;
+}
+#subtotal,
+#orderButtons {
+  display: flex;
+  justify-content: space-between;
+}
+#modalProgress {
+  display: flex;
+  justify-content: space-around;
+}
+#message-body,
+#message-body-2 {
+  display: flex;
+  flex-direction: column;
+}
+#expiration-digits,
+#expiration,
+#security {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#checkout-procedure {
+  display: none;
+}
+#subtotal-2 {
+  display: flex;
+  flex-direction: row;
+}
